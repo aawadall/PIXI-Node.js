@@ -3,7 +3,9 @@ window.onload = function () {
     const config = require('../../package.json');
     let versionContainer = document.getElementById("version");
 
+    console.debug(config.version);
     versionContainer.innerHTML = config.version;
+
     // The following line causes trouble, not sure how to fix it 
     import * as PIXI from 'pixi';
     

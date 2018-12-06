@@ -1,7 +1,7 @@
 window.onload = function () {
     
     // The following line causes trouble, not sure how to fix it 
-    import * as PIXI from './pixi';
+    import * as PIXI from 'pixi';
     
 
     let app = new PIXI.Application({

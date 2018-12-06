@@ -1,12 +1,13 @@
 {
-  "name": "Node-Webiste-EB-Sample-App",
-  "description": "Sample NodeJs web application",
-  "version": "0.0.1",
+  "name": "PIX-WORX Node.js",
+  "description": "Sample PIXI Web App on NodeJs",
+  "version": "0.0.2",
   "private": true,
   "devDependencies": {
     "mocha": "5.0.0",
     "unit.js": "2.0.0",
-    "supertest": "3.0.0"
+    "supertest": "3.0.0",
+    "pixi.js": "*"
   },
   "scripts": {
     "start": "node app.js",

@@ -1,6 +1,9 @@
 var port = process.env.PORT || 3000,
     http = require('http'),
-    fs = require('fs');
+    fs = require('fs'),
+    PIXI = require('pixi.js'),
+    index = require('public/js/sprite');
+
 
 var app = http.createServer(function (req, res) {
   if (req.url.indexOf('/img') != -1) {

@@ -1,5 +1,5 @@
 {
-  "name": "PIX-WORX Node.js",
+  "name": "pixi_node",
   "description": "Sample PIXI Web App on NodeJs",
   "version": "0.0.2",
   "private": true,
